@@ -21,7 +21,7 @@ def primo(number , interacao = number ,count = 0)
     count += 1
   end
 
-  primo(number ,interacao -= 1 , count)
+  primo(number ,interacao - 1 , count)
 end
 
 if(primo(number))
