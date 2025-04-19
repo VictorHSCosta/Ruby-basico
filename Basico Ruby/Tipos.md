@@ -46,22 +46,6 @@ Ruby tem vários _classes_ básicas para dados:
   - blocos reutilizáveis: `proc { |x| x * 2 }` ou `->(x){ x*2 }`
 
 ## 5. Exercício Proposto  
-# Fundamentos de Ruby: Tipos e Natureza da Linguagem
-
-## 1. Ruby é uma linguagem interpretada  
-- Ruby foi projetado por Yukihiro “Matz” Matsumoto como uma linguagem **dinâmica**, **orientada a objetos** e **interpretada**.  
-- No dia a dia você escreve arquivos `.rb` e roda com o interpretador MRI (Matz’s Ruby Interpreter), que faz parsing do código e executa direto.
-
-## 2. Bytecode e Compilação Dinâmica  
-- **YARV (Yet Another Ruby VM)**: desde Ruby 1.9, o MRI compila seu código fonte internamente para um **bytecode** próprio (YARV bytecode) e depois executa na VM.  
-- **Não há um arquivo “.class” ou bytecode separado** gerado pra você distribuir — tudo rola em memória a cada execução.  
-- Isso o torna **interpretação com compilação JIT/dinâmica**, mas **não** uma compilação AOT (ahead‑of‑time) como em C ou Go.
-
-## 3. Variáveis em Ruby  
-Em Ruby **tudo é objeto**, mas a forma de referenciar eles varia:
-
-| Tipo              | Prefixo/Sintaxe | Escopo                                |
-|-------------------|-----------------|---------------------------------------|
 | Local             | `variavel`      | Dentro do método/bloco onde foi criada|
 | Instância         | `@variavel`     | Dentro de um objeto/instância de classe |
 | Classe            | `@@variavel`    | Dentro de toda a classe e subclasses  |
