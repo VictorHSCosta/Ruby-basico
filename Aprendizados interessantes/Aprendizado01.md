@@ -4,7 +4,6 @@ subtitle: "Como variáveis locais, globais e parâmetros funcionam dentro de mé
 date: 2025-04-19
 author: "Vitor Henrique Costa"
 tags: ["Ruby", "Programação", "Escopo de Variáveis", "Aprendizado Diário"]
-cover_image: "/assets/images/ruby-escopo-variaveis.jpg"
 ---
 
 # Aprendizado de Hoje: Entendendo o Escopo de Variáveis no Ruby
