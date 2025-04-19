@@ -13,18 +13,19 @@ nome = gets
 puts "Olá, #{nome}!"
 Se você digitar Vitor e apertar Enter, o programa vai imprimir: Olá, Vitor\n! (Observe que o \n é o "Enter" capturado junto.)
 
+```
+
 2. O que é chomp?
 O método chomp é usado para remover a quebra de linha (\n) do final da string que foi lida com gets.
 
 Assim, o texto fica "limpo", sem o Enter atrapalhando a saída do programa.
 
 Exemplo usando chomp:
-ruby
-Copiar
-Editar
+```
 puts "Digite seu nome:"
 nome = gets.chomp
 puts "Olá, #{nome}!"
+```
 Agora, se você digitar Vitor e apertar Enter, o programa vai imprimir certinho: Olá, Vitor!
 
 3. Resumo Rápido
@@ -33,9 +34,7 @@ Método	Função
 gets	Lê uma linha do teclado, incluindo o Enter (\n) no final
 chomp	Remove o Enter (\n) da string lida com gets
 4. Exemplo Completo
-ruby
-Copiar
-Editar
+```
 puts "Qual é o seu nome?"
 nome = gets.chomp
 
@@ -43,15 +42,19 @@ puts "Qual é a sua idade?"
 idade = gets.chomp
 
 puts "Seja bem-vindo, #{nome}! Você tem #{idade} anos."
+
+```
 Exemplo de funcionamento:
-css
-Copiar
-Editar
+
+```
 Qual é o seu nome?
 Vitor
 Qual é a sua idade?
 22
 Seja bem-vindo, Vitor! Você tem 22 anos.
+
+```
+
 5. Dica Extra
 Sempre que usar gets, é recomendado usar .chomp junto para evitar problemas com quebras de linha.
 
@@ -62,12 +65,13 @@ Se quiser transformar o que o usuário digitou em número, você pode usar:
 .to_f para transformar em número decimal (ponto flutuante)
 
 Exemplo de conversão:
-ruby
-Copiar
-Editar
+```
 puts "Digite um número:"
 numero = gets.chomp.to_i
 puts "O dobro do número é #{numero * 2}"
+
+```
+
 6. Exercício Proposto
 Crie um programa chamado entrada_usuario.rb que:
 
