@@ -7,7 +7,6 @@ def searchFile(word)
     readed_file = File.open(file_name,"r")
 
     readed_file.each_with_index do |line, index|
-      line = line.downcase!
       if line.include?(word)
         resposta << [index + 1, file_name]
       end
@@ -19,7 +18,7 @@ def searchFile(word)
   resposta
 end
 
-word = ARGV[0].downcase!
+word = ARGV[0]
 
 resposta = searchFile(word) if !word.nil?
 
