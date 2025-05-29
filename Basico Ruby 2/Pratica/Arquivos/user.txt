@@ -1,7 +1,0 @@
-react
-#user information data
-{name: "Victor", age: 22, state: "Brasilia"}#user information data
-{name: "Gustavo", age: 20, state: "Goias"}#user information data
-{name: "Gustavao ", age: 55, state: "Brasilia"}#user information data
-{name: "Tralalelo tralala", age: 55, state: "Brasilia"}#user information data
-{name: "Tulho safado", age: 55, state: "Brasilia"}
